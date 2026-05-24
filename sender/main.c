@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
     return EXIT_FAILURE;
   }
 
-  printf("Sent : \"%s\" to %s:%d\n", message, peer_ip, peer_port);
+  printf("Sent: \"%s\" to %s:%d\n", message, peer_ip, peer_port);
   close(udp_socket);
 
   return EXIT_SUCCESS;
